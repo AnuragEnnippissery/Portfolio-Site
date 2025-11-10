@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,9 +34,11 @@
             <p class="text-xl sm:text-2xl mb-8 max-w-2xl mx-auto"> <!-- Responsive text, margin bottom, max width, centered -->
                 A passionate web developer creating beautiful and functional websites.
             </p>
-            <button class="bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold hover:bg-indigo-100 transition duration-300 transform hover:scale-105"> <!-- White bg, colored text, padding, rounded, hover effects -->
+            <a href="#projects" 
+                class="bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold hover:bg-indigo-100 transition duration-300 transform hover:scale-105 inline-block">
                 View My Work
-            </button>
+            </a>
+
         </div>
     </section>
 
@@ -226,6 +228,27 @@
         </div>
     </section>
 
+    <!-- Resume Section -->
+        <section id="resume" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-indigo-600 mb-6">
+                My Resume
+                </h2>
+                <p class="text-lg text-gray-700 max-w-2xl mx-auto mb-10">
+                Want to learn more about my background, experience, and skills in detail?  
+                You can download my latest resume below.
+                </p>
+                <a 
+                href="Docs/ANURAG ENNIPPISSERY_Resume_compressed_compressed (1).pdf" 
+                download
+                class="inline-block bg-indigo-600 text-white px-8 py-3 rounded-full font-semibold shadow-md hover:bg-indigo-700 hover:shadow-lg transition duration-300 transform hover:scale-105"
+                >
+                📄 Download Resume
+                </a>
+            </div>
+        </section>
+
+
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-indigo-600 text-white"> <!-- Section padding, colored background -->
         <div class="container mx-auto px-4"> <!-- Centered container with padding -->
@@ -276,17 +299,17 @@
                     <p>© 2025 My Portfolio. All rights reserved.</p>
                 </div>
                 <div class="flex space-x-6"> <!-- Flex layout with spacing -->
-                    <a href="https://www.linkedin.com/in/anurag-ramesh" class="text-2xl hover:text-indigo-300 transition duration-300"> <!-- Social icon with hover effect -->
-                        <span class="sr-only">Twitter</span> <!-- Screen reader only -->
-                        🐦
+                    <a href="https://www.youtube.com/@LearnWithAnurag-Ennippissery" class="text-2xl hover:text-indigo-300 transition duration-300"> <!-- Social icon with hover effect -->
+                        <span class="sr-only">youtube</span> <!-- Screen reader only -->
+                        <img src="Images/youtube.png"alt="github"/>
                     </a>
                     <a href="https://github.com/AnuragEnnippissery" class="text-2xl hover:text-indigo-300 transition duration-300">
                         <span class="sr-only">GitHub</span>
-                        💻
+                    <img src="Images/github.png"alt="github"/>
                     </a>
                     <a href="https://www.linkedin.com/in/anurag-ramesh/" class="text-2xl hover:text-indigo-300 transition duration-300">
                         <span class="sr-only">LinkedIn</span>
-                        🔗
+                        <img src="Images/linkedin.png"alt="github"/>
                     </a>
                 </div>
             </div>
